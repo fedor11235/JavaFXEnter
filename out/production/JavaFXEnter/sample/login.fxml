@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="522.0" style="-fx-background-color: #3c3c3c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <children>
+      <AnchorPane layoutX="-7.0" layoutY="67.0" prefHeight="266.0" prefWidth="600.0" style="-fx-background-color: #1e1e1e;">
+         <children>
+            <Button fx:id="enter" layoutX="219.0" layoutY="170.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="87.0" style="-fx-background-color: #181818;" text="Войти" textFill="#007bcd">
+               <font>
+                  <Font name="Century" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <TextField fx:id="login" layoutX="124.0" layoutY="81.0" prefHeight="33.0" prefWidth="274.0" promptText="Логин" style="-fx-background-radius: 5; -fx-background-color: #333333;">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password" layoutX="124.0" layoutY="123.0" prefHeight="33.0" prefWidth="274.0" promptText="Пароль" style="-fx-background-radius: 5; -fx-background-color: #333333;">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="211.0" layoutY="33.0" text="Авторизация" textFill="#007bcd">
+               <font>
+                  <Font name="Centaur" size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="228.0" layoutY="13.0" text="BOTS" textFill="#007bcd">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="link" layoutX="376.0" layoutY="14.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="146.0" style="-fx-background-color: #252525;" text="Зарегистрироваться" textFill="#007bcd">
+         <font>
+            <Font name="Consolas Bold" size="12.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
